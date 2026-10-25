@@ -6,9 +6,11 @@ void setup ()
 
 void draw()
 {
+ 
   background(252, 255, 214);
   noStroke();
   fill(255, 255, 255);
+  shininess(10);
   beginShape(TRIANGLE_FAN);
   vertex(750, 500);
   vertex(750, 255);
