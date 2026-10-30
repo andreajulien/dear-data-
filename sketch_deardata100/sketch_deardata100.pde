@@ -1,7 +1,7 @@
 void setup ()
 {
   size(1500, 1850);// middle of canvas (750,925)
-  PFont myFont = createFont("zapfino", 19);// load text
+  PFont myFont = createFont("zapfino", 19);// load text in 
   textFont(myFont);
 }
 
